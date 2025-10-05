@@ -47,7 +47,6 @@ img {
 }
 
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -57,6 +56,7 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .logo-header {
   font-family: "Raleway", sans-serif;
@@ -66,7 +66,7 @@ img {
   letter-spacing: 0.03em;
   font-weight: 700;
   line-height: 1.17;
-  margin-right: 76px;
+  padding-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
@@ -77,13 +77,13 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 .menu-link {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   padding: 24px 0;
+  display: block;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -115,7 +115,7 @@ img {
   text-align: center;
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .button {
   font-family: "Roboto", sans-serif;
